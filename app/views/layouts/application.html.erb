@@ -57,7 +57,10 @@
         </ul>
         <p class="navbar-text pull-right">
           <% if user_signed_in? %>
+          <br>
             Logged in as <strong><%= current_user.email %></strong>
+            <!--  Gravatar tag -->
+            <!-- <%= image_tag current_user.gravatar_url %> -->
             <li class="nav-link"><%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %></li>
             <li class="nav-link"><%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %></li>
           <% else %>

@@ -92,6 +92,7 @@ GEM
     formtastic_i18n (0.6.0)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
+    gravtastic (3.2.6)
     has_scope (0.7.1)
       actionpack (>= 4.1, < 5.2)
       activesupport (>= 4.1, < 5.2)
@@ -230,6 +231,7 @@ DEPENDENCIES
   activeadmin!
   byebug
   devise
+  gravtastic
   inherited_resources!
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
