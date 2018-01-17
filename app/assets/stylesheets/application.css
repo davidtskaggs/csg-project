@@ -25,3 +25,15 @@ body {
   width: 500px;
   align-items: center;
 }
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #f8f9fa;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a.navbar-link {
+  color: #f8f9fa;
+  text-decoration: none;
+  font-size: 20px;
+}
