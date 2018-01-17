@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'resource/index'
+
   get 'article/index'
 
   get 'contact/index'
