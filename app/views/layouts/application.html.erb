@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   </head>
   <body>
     <% if notice %>
@@ -79,7 +80,12 @@
     </div>
     <footer>
       <div class="footer">
-        The CarShareGuy <%= Time.now.year %>
+
+        <h6>| compete less. share more |</h6>
+        <h6>Be Atypical Media Co.</h6>
+        <p>The CarShareGuy, LLC. All Rights Reserved <%= Time.now.year %></p>
+        <i class="devicon-facebook-plain"></i>
+        <i class="devicon-twitter-plain"></i>
       </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
