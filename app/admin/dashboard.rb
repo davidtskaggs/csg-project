@@ -13,15 +13,15 @@ ActiveAdmin.register_page "Dashboard" do
     # Here is an example of a simple dashboard with columns and panels.
     #
     columns do
-      # column do
-      #   panel "Recent Users" do
-      #     ul do
-      #       User.map do |user|
-      #         li link_to(user.email)
-      #       end
-      #     end
-      #   end
-      # end
+      column do
+        panel "Recent Users" do
+          ul do
+            User.all do |user|
+              li link_to(user.email)
+            end
+          end
+        end
+      end
 
       column do
         panel "Info" do
