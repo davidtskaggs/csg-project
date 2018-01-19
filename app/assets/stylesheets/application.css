@@ -45,3 +45,11 @@ h1 {
 #img-tag {
   background-color: #edeff2;
 }
+
+.footer{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #323537;
+  color: #f8f9fa;
+}
